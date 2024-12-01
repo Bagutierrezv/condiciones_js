@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+    background-color: rgb(251, 247, 255);
+}
+
+img{
+    width: 200px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+/*PRIMER CONTENEDOR*/
+.primera-condicion{
+    text-align: center;
+    border: 2px #44d627 solid;
+    border-radius: 5px;
+    margin: 1rem 10rem;
+    padding: 1rem 0rem 0rem;
+}
+
+.primer-contenedor{
+    display: flex;
+    justify-content: center;
+}
+
+.img-palta{
+    margin: 1rem;
+}
+
+/*SEGUNDO CONTENEDOR*/
+
+.segunda-condicion{
+    text-align: center;
+    border: 2px #8a2be2 solid;
+    border-radius: 5px;
+    margin: 1rem;
+    padding: 1rem 0rem 0rem;
+}
+
+.contenedor-sticker{
+    display: flex;
+    justify-content: center;
+}
+
+.sticker{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    margin: 1rem 0.5rem;
+    align-items: center;
+    border: 1px #8a2be2 solid;
+    border-radius: 15px;
+}
+
+input{
+    background-color: #ffffff;
+    text-align: center;
+    margin-top: 0.5rem;
+    width: 8rem;
+}
+
+.btn-sticker{
+    margin: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #8a2be2;
+    border-radius: 10px;
+    border: 1px #ffffff solid;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/*TERCER CONTENEDOR*/
+.tercera-condicion{
+    border: 2px #ff51e8 solid;
+    border-radius: 5px;
+    text-align: center;
+    margin: 1rem 15rem;
+    padding: 2rem;
+}
+
+.box-opciones{
+    padding: 1rem 0rem 0.5rem;
+}
+
+.box-opciones > select{
+    margin: 0.5rem 0.3rem;
+}
+
+.btn-opciones{
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #ff51e8;
+    border-radius: 10px;
+    border: 1px #ffffff solid;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 600;
+}
+
