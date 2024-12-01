@@ -17,7 +17,6 @@ h1{
     margin-top: 1rem;
 }
 
-/*PRIMER CONTENEDOR*/
 .primera-condicion{
     text-align: center;
     border: 2px #44d627 solid;
@@ -34,8 +33,6 @@ h1{
 .img-palta{
     margin: 1rem;
 }
-
-/*SEGUNDO CONTENEDOR*/
 
 .segunda-condicion{
     text-align: center;
@@ -79,7 +76,6 @@ input{
     font-weight: 600;
 }
 
-/*TERCER CONTENEDOR*/
 .tercera-condicion{
     border: 2px #ff51e8 solid;
     border-radius: 5px;

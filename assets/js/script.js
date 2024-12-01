@@ -1,4 +1,4 @@
-//PRIMER EJERCICIO
+//EJERCICIO 1
 const palta = document.querySelector('.img-palta')
 
 palta.addEventListener('click', () => {
@@ -12,10 +12,7 @@ palta.addEventListener('click', () => {
     }
 })
 
-//SEGUNDO EJERCICIO
-// Si el total de stickers es  menor o igual =< a 10 debe indicar cuantos stickers llevo
-// Si el total de stickers es mayor > a 10 debe indicar "Llevas demasiados stickers"
-
+//EJERCICIO 2
 const input1 = document.querySelector('#sticker-uno')
 const input2 = document.querySelector('#sticker-dos')
 const input3 = document.querySelector('#sticker-tres')
@@ -36,16 +33,12 @@ btnVerificar.addEventListener('click', () => {
    }
 })
 
-//TERCER EJERCICIO
-
-// Elementos DOM
+//EJERCICIO 3
 const select1 = document.querySelector('#primera-opcion')
 const select2 = document.querySelector('#segunda-opcion')
 const select3 = document.querySelector('#tercera-opcion')
 const respuestaClave = document.querySelector('.parrafo-clave')
 const btnIngresar = document.querySelector('.btn-opciones')
-
-//Claves
 const clave_1 = '911'
 const clave_2 = '714'
 
@@ -58,5 +51,6 @@ btnIngresar.addEventListener('click', () => {
     } else {
         respuestaClave.innerHTML = 'Contraseña incorrecta'
     }
+
     console.log(select1.value)
 })
